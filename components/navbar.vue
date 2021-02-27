@@ -163,7 +163,8 @@
                         <div class="row">
                           <div class="col-3" style="padding-right: 0px;padding-left: 0px;width: 100%;">
                             <nav id="nav-menu">
-                              <i class="material-icons menu" v-on:click="onToggleMenu()" v-if="!menuOpen"  style="color:black;z-index: 1000000 " key="menu">menu</i>
+                              <i class="material-icons menu" v-on:click="onToggleMenu()" v-if="!menuOpen"  style="color:black;z-index: 1000000 " key="menu">
+                                <img src="../assets/img/menu.png" style="width: 22px;"></i>
                               
                               
 
@@ -223,20 +224,28 @@
     <header class="header" style="margin-top: -46px;"  v-if="menuOpen">
       
       <div class="navigation" :class="{'open': menuOpen}" >
-      <i class="material-icons clear" v-on:click="onToggleMenu()" v-if="menuOpen"  style="color:white;z-index: 1000000;padding: 22px; " key="clear">clear</i>
+      <i class="material-icons clear" v-on:click="onToggleMenu()" v-if="menuOpen"  style="color:white;z-index: 1000000;padding: 15px; " key="clear">
+        <img src="../assets/img/close.png" style="width: 25px;">
+      </i>
         <nav >
           <ul style="padding: 0px 0px 0px 0px;">
             <li >
               <a href="/" style="color:white;">Главная</a>
             </li>
             <li >
-              <a href="/new" style="color:white;">Новости</a>
+              <a href="/student" style="color:white;">ВЗРОСЛЫМ</a>
             </li>
             <li>
-              <a href="/contact" style="color:white;">Контакты</a>
+              <a href="/school" style="color:white;">ДЕТЯМ</a>
             </li>
             <li>
-              <a href="/" style="color:white;">Такси на Алакөл</a>
+              <a href="/photo" style="color:white;">ФОТО</a>
+            </li>
+            <li>
+              <a href="/price" style="color:white;">ЦЕНЫ</a>
+            </li>
+            <li>
+              <a href="/price" style="color:white;">КОНТАКТЫ</a>
             </li>
 
           </ul>
@@ -566,7 +575,7 @@ display: flex;
 }
 
 .menu {
-  padding: 20px;
+  padding: 12px;
   position: relative;
   z-index: 1000;
 }
