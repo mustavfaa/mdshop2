@@ -225,7 +225,7 @@
       
       <div class="navigation" :class="{'open': menuOpen}" >
       <i class="material-icons clear" v-on:click="onToggleMenu()" v-if="menuOpen"  style="color:white;z-index: 1000000;padding: 15px; " key="clear">
-        <img src="../assets/img/close.png" style="width: 25px;">
+        <img src="../assets/img/close.png" style="width: 25px;margin-top: 15px;">
       </i>
         <nav >
           <ul style="padding: 0px 0px 0px 0px;">
@@ -578,6 +578,7 @@ display: flex;
   padding: 12px;
   position: relative;
   z-index: 1000;
+  margin-top: 15px;
 }
 
 .menu-hamburger {
