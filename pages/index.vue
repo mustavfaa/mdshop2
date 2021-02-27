@@ -56,7 +56,7 @@
                   </div>
                   
                   <div class="elementor-button-wrapper col-12" style="text-align: center;margin-top: 30px;padding-right: 0px;padding-left: 0px;">
-                    <a href="" class="button-wrapper" style="font-family:Array;">Подробнее</a>
+                    <a href="/price" class="button-wrapper" style="font-family:Array;">Подробнее</a>
                   </div>
                 </div>
          
@@ -79,7 +79,7 @@
                   </div>
                   
                   <div class="elementor-button-wrapper col-12" style="text-align: center;margin-top: 30px;padding-right: 0px;padding-left: 0px;">
-                    <a href="" class="button-wrapper" style="font-family:Array;">Подробнее</a>
+                    <a href="/school" class="button-wrapper" style="font-family:Array;">Подробнее</a>
                   </div>
                 </div>
          
@@ -100,7 +100,7 @@
                   </div>
                   
                   <div class="elementor-button-wrapper col-12" style="text-align: center;margin-top: 30px;padding-right: 0px;padding-left: 0px;">
-                    <a href="" class="button-wrapper" style="font-family:Array;">Подробнее</a>
+                    <a href="/student" class="button-wrapper" style="font-family:Array;">Подробнее</a>
                   </div>
                 </div>
          
